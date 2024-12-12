@@ -1,0 +1,162 @@
+
+body {
+    margin: 0;
+    font-family: cursive, Arial, sans-serif;
+    background-color: rgb(22, 14, 71);
+    color: white;
+}
+
+
+.full {
+    background-color: rgb(22, 14, 71);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    background-color: rgb(116, 98, 219);
+    margin: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.nav {
+    background-color: rgb(72, 72, 77);
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.headinp {
+    border-radius: 20px;
+    padding: 10px;
+    width: calc(100% - 160px); 
+    margin-right: 10px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.taskbtn {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    font-family: cursive;
+}
+
+.dropdown {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-family: cursive;
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+.mid {
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.tasklist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(135, 180, 180);
+    color: black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cb {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.task {
+    flex: 1;
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
+}
+
+
+.editdeletebtns {
+    display: flex;
+    gap: 10px;
+}
+
+.deled {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: cursive;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        width: 95%;
+    }
+
+    .headinp {
+        width: calc(100% - 140px);
+    }
+
+    .dropdown {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .tasklist {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .editdeletebtns {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+}

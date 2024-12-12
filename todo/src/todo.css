@@ -1,0 +1,122 @@
+.full {
+    background-color: rgb(116, 98, 219);
+    height: 1000px;
+    padding-top: 20px;
+}
+
+.main {
+
+    background-color: rgb(116, 98, 219);
+    margin: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.nav {
+    background-color: rgb(72, 72, 77);
+    height: 120px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    
+
+}
+
+.header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 39, 39);
+    border-radius: 60px;
+    height: 55px;
+    padding-top: 5px;
+    font-family: cursive;
+}
+
+.taskbtn {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: -50px;
+    font-family: cursive;
+}
+
+.headinp{
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    font-family: cursive;
+
+
+}
+
+.dropdown {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    height: 38px;
+    width: 130px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    margin-top: -50px;
+    font-family: cursive;
+    text-align: center;
+}
+.mid{
+    background-color: rgb(39, 39, 39);
+    height: 380px;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+.tasklist{
+    height: 40px;
+    background-color: rgb(135, 180, 180);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    width: 1020px;
+    display: flex;
+    border-radius: 30px;
+    
+    
+
+}
+.list{
+    list-style-type: none;
+    font-family: cursive;
+}    
+li {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 1020px;
+    margin-left: -30px;
+}
+.cb{
+    margin-top: 15px;
+}
+.task{
+margin-left: 30px;
+margin-top: -23px;
+background-size: auto;}
+
+
+
+.editdeletebtns{
+    margin-left: 700px;
+    margin-top: 5px;
+    
+}
+
+.deled{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    font-family: cursive;
+    
+}
